@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "org/jason/gloomer/mixin/ParticleManagerAccessor": {
+      "particles": "field_3830:Ljava/util/Map;"
+    },
+    "org/jason/gloomer/mixin/ParticleManagerMixin": {
+      "tick()V": "Lnet/minecraft/class_702;method_3057()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "org/jason/gloomer/mixin/ParticleManagerAccessor": {
+        "particles": "field_3830:Ljava/util/Map;"
+      },
+      "org/jason/gloomer/mixin/ParticleManagerMixin": {
+        "tick()V": "Lnet/minecraft/class_702;method_3057()V"
+      }
+    }
+  }
+}

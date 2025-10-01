@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gloomer",
+  "version": "${version}",
+  "name": "GloomerParticlePatch",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/gloomer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.jason.gloomer.client.GloomerDataGenerator"
+    ],
+    "client": [
+      "org.jason.gloomer.client.GloomerClient"
+    ],
+    "main": [
+      "org.jason.gloomer.Gloomer"
+    ]
+  },
+  "mixins": [
+    "gloomer.mixins.json",
+    {
+      "config": "gloomer.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "origins": "*",
+    "calio": "*"
+  }
+}

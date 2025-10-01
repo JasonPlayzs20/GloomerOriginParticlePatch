@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.jason.gloomer.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ParticleManagerAccessor",
+    "ParticleManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
